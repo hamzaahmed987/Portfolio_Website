@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">Hamza Ahmed</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experiences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <main>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="Profile-Picture.jpg" alt="Your Photo" class="profile-pic">
+                <div class="about-text">
+                    <p>Hi, I'm Hamza, a passionate front-end web developer with a knack for creating sleek, responsive, and user-friendly websites. I specialize in building modern web applications using technologies like HTML, CSS, JavaScript, and Next.</p>
+                    <p>Whether it's bringing a design to life, optimizing website performance, or debugging tricky code, I thrive in the details that make great web experiences. I'm always eager to learn new things and stay updated with the latest trends and technologies in the web development world.</p>
+                    <p>In my free time, I read Books. Feel free to explore my portfolio to learn more about my work and experiences!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <div class="content skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>TypeScript</li>
+                        <!-- <li>Python</li> -->
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <ul>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <!-- <li>SASS</li> -->
+                        <li>Tailwind CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <!-- <li>Webpack</li> -->
+                    </ul>
+                </div>
+                
+                <!-- <div class="skill-category">
+                    <h3>Other</h3>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <!-- <li>API Integration</li> -->
+                        <!-- <li>Debugging</li>
+                        <li>Version Control</li>
+                    </ul>
+                </div> --> 
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="content">
+                <div class="project-item">
+                    <h3>Project 1: Portfolio Website</h3>
+                    <p>A personal portfolio website showcasing my skills and projects. Built with HTML, CSS, and JavaScript, featuring a sleek, dark theme.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 2: E-commerce Platform</h3>
+                    <p>Developed a full-fledged e-commerce platform with a custom-built shopping cart, secure payment integration, and user authentication using React and Firebase.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Project 3: Weather App</h3>
+                    <p>A weather forecasting application that displays real-time weather information using the OpenWeather API. Built using JavaScript and Bootstrap.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="content">
+                <div class="experience-item">
+                    <h3>Fresher Front-End Developer</h3>
+                    <p><em>October 2024 - Present</em></p>
+                    <p>Worked on creating responsive web applications using modern web technologies. Collaborated with designers to implement user-friendly UI/UX, built reusable components, and optimized the performance of web pages.</p>
+                </div>
+                <!-- <div class="experience-item">
+                    <h3>Web Developer Intern - [Company Name]</h3>
+                    <p><em>Feb 2024 - Oct 2024</em></p>
+                    <p>Assisted the development team in building and maintaining various websites. Gained experience in HTML, CSS, JavaScript, and popular front-end libraries such as React.</p>
+                </div> -->
+            </div>
+        </section>
+
+        
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education</h2>
+            <div class="content">
+                <div class="education-item">
+                    <h3>Matriculation in Science</h3>
+                    <p><em>Korangi Academy - 2023 - 2024</em></p>
+                    <p>Specializing in front-end web development, data structures, and algorithms. Gained extensive knowledge in web technologies and participated in several hackathons.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <div class="contact-content">
+                <p>If you'd like to work together or just say hello, feel free to contact me through the form below or reach out via email.</p>
+                <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+</body>
+</html>

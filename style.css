@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f5f5;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    border-bottom: 2px solid #00ff00;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #00ff00;
+    text-shadow: 0 0 5px #00ff00;
+}
+
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+
+/* General Styles (from the navbar section) */
+body {
+    background-color: #121212;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f5f5;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #00ff00;
+    border-bottom: 2px solid #00ff00;
+    padding-bottom: 0.5rem;
+}
+
+p {
+    margin: 0.5rem 0;
+}
+
+/* Section Styling */
+.section {
+    padding: 2rem 1.5rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+
+.section h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Experience and Education Item Styling */
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.experience-item, .project-item, .education-item {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+h3 {
+    color: #f5f5f5;
+    margin-bottom: 0.5rem;
+}
+
+em {
+    color: #00ff00;
+}
+
+
+
+/* Skills Section Styling */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.skill-category {
+    background-color: #1a1a1a;
+    padding: 1.5rem;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.skill-category h3 {
+    color: #00ff00;
+    margin-bottom: 1rem;
+}
+
+.skill-category ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-category li {
+    margin: 0.5rem 0;
+    color: #f5f5f5;
+}
+
+
+
+
+
+/* About Section Styling */
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+    background-color: #1a1a1a;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #00ff00;
+    object-fit: cover;
+}
+
+.about-text {
+    color: #f5f5f5;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+
+/* Contact Section Styling */
+.contact-content {
+    background-color: #1a1a1a;
+    padding: 2rem 1.5rem;
+    border: 2px solid #00ff00;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.contact-content p {
+    margin-bottom: 1.5rem;
+    color: #f5f5f5;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #00ff00;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #00ff00;
+    border-radius: 4px;
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #00ff00;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00cc00;
+}
+
